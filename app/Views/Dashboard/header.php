@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?= base_url('css/index.css') ?>">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
     <title>Dashboard Perpustakaan</title>
     <style>
+    
+
     @media(max-width:768px) {
         .container {
             flex-direction: column;
