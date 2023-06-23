@@ -75,3 +75,6 @@ footer {
   text-align: center;
   font-size: 2vw;
 }
+.form-buku {
+  display: flex;
+}

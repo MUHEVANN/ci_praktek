@@ -36,6 +36,9 @@ $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/register', 'RegisterController::index');
 $routes->post('/register/process','RegisterController::register');
 $routes->get('/login','Login::index');
+$routes->get('/buku','Buku::index');
+$routes->get('/add-buku','Buku::create');
+$routes->post('/add-buku','Buku::store');
 $routes->post('/login/authenticate','Login::authenticate');
 /*
  * --------------------------------------------------------------------
